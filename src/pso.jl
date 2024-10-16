@@ -18,15 +18,24 @@ Particle swarm optimization (classic method)
 
 Inputs: 
 
-     f(x):    Objective function. Must return a single scalar \
-     NP:      Number of particles in the swarm \
-     niter:   Number of iterations \
-     xl:      Vector with lower bounds (side constraints) \
-     xu:      Vector with upper bounds (side constraints) \
-     w:       Weight factor (inertia) \
-     c1:      Coefficient for local direction \
-     c2:      Coefficient for global direction \
-     verbose: show the best result of each iteration (if true)\
+     f(x):    Objective function. Must return a single scalar 
+
+     NP:      Number of particles in the swarm 
+
+     niter:   Number of iterations 
+
+     xl:      Vector with lower bounds (side constraints) 
+
+     xu:      Vector with upper bounds (side constraints) 
+
+     w:       Weight factor (inertia) 
+
+     c1:      Coefficient for local direction 
+
+     c2:      Coefficient for global direction 
+
+     verbose: show the best result of each iteration (if true)
+     
 
 Outputs:
 
