@@ -1,3 +1,7 @@
 # LPop
 
-[![Build Status](https://github.com/CodeLenz/LPop.jl/actions/workflows/CI.yml/badge.svg?branch=main)](https://github.com/CodeLenz/LPop.jl/actions/workflows/CI.yml?query=branch%3Amain)
+Optimization using Populational Methods (PSO and Genetics)
+
+<p align="center">
+<img src="./docs/population.png" alt="LPop" width="500">
+</p>
