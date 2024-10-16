@@ -59,7 +59,7 @@ xl = zeros(2)
 # Upper bounds
 xu = 10*ones(2)
 
-# Number of bits
+# Number of bits (per variable)
 Nb = 6
 
 # Mutation rate
@@ -70,6 +70,5 @@ replacement = "Elite"
 
 # Call the optimizer
 x_opt = Genetic(f,Np,ngera,Nb,mutrate,xl,xu,replacement)
-
 
 ```
