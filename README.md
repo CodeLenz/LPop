@@ -72,3 +72,11 @@ replacement = "Elite"
 x_opt = Genetic(f,Np,ngera,Nb,mutrate,xl,xu,replacement)
 
 ```
+
+# TODO
+
+Paralelization
+
+Constrained problems
+
+Other Selection and Replacement operators
