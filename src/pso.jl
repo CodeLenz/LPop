@@ -90,7 +90,7 @@ function PSO(f::Function, NP::Int,niter::Int,xl::Vector,xu::Vector;w=0.5,c1=1.5,
     #
     # Inicializa F
     #
-    Threads.@threads for p=1:NP
+    for p=1:NP
 
           # Objetivo para esta partícula
           F[p] = f(vec(X[p,:]))
@@ -135,7 +135,7 @@ function PSO(f::Function, NP::Int,niter::Int,xl::Vector,xu::Vector;w=0.5,c1=1.5,
          end #p
 
          # Calcula o objetivo para cada partícula
-         Threads.@threads  for p=1:NP
+         for p=1:NP
 
               # Calcula o novo objetivo para esta partícula
               F[p] =  f(vec(X[p,:]))
